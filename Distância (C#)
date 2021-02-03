@@ -19,7 +19,7 @@ Exemplo de Entrada	Exemplo de Saída
 
 110                   220 minutos
 
-Solução:
+Solução em C#:
 
 using System;
 
