@@ -36,7 +36,7 @@ Exemplos de Entrada	Exemplos de Saída
 2
 2                    7325
 
-Solução:
+Solução em C#:
 
 using System;
 
