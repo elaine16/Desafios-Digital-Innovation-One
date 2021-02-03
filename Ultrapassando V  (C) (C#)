@@ -19,3 +19,52 @@ Exemplo de Entrada
 
 Exemplo de Saída
 5
+
+Solução em C:
+#include <stdio.h>
+int main()
+{
+    int a,b,c=0,x,z;
+    scanf("%d", &x);
+    do{
+        scanf("%d", &z);
+    }
+    while(x>=z);
+    for(a=x,b=0; b<z; a++)
+    {
+        b+=a;
+        c++;
+    }
+    printf("%d\n", c);
+    return 0;
+}
+
+
+Solução em C#:
+
+using System;
+
+class Program {
+  
+  static void Main(string[] args) {
+    int a,b;
+    int c = 0;
+    int x,z;
+    
+    string input;
+    x = int.Parse(Console.ReadLine());
+    
+     do{
+       z = int.Parse(Console.ReadLine());
+    }
+    while(x >= z);
+    for(a = x, b = 0; b < z; a++)
+    {
+        b+= a;
+        c++;
+    }
+    Console.WriteLine("{0}\n", c);
+ 
+  }
+
+}
